@@ -7,7 +7,7 @@ body{
 
 .admin{
 position:relative;
-margin-left:91%;
+margin-left:95%;
 
 }
 
@@ -18,4 +18,11 @@ background-color: darkblue;
 height:0.5px;
 border:1px solid black;
 
+}
+
+h2{
+    font-size:25px;
+    position:relative;
+    margin-top:5%;
+    
 }

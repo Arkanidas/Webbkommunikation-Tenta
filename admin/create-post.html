@@ -5,12 +5,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="createBody1">
     <h1>Create a new post</h1>
-    <form action="">
-        <input type="text"> Title <br>
-        <input type="text"> Author <br>
-        <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+    <form action="" id="createForm">
+       <p>Title</p> <input type="text" id="createTitle">  <br>
+       <p>Author</p> <input type="text" id="createAuthor">  <br>
+       <p>Pun</p>
+        <textarea name="" id="createText" cols="50" rows="20"></textarea> <br>
+       <p>Tags</p> <select name="tags" id="tags">
+            <option value="Economics">Economics</option>
+            <option value="Food">Food</option>
+            <option value="Sport">Sport</option>
+            <option value="Cars">Cars</option>
+          </select>-
         <button>Submit</button> <br>
         <a href="index.html">Back to admin page</a>
 

@@ -1,0 +1,28 @@
+body{
+    margin:0px;
+    padding:23%;
+    background-color: burlywood;
+    margin-top:-22%;
+}
+
+.admin{
+position:relative;
+margin-left:95%;
+
+}
+
+.firsthr{
+max-width: 100%;
+color:black;
+background-color: darkblue;
+height:0.5px;
+border:1px solid black;
+
+}
+
+h2{
+    font-size:25px;
+    position:relative;
+    margin-top:5%;
+    
+}
